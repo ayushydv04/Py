@@ -1,0 +1,26 @@
+x=4
+y=9
+while y>x:
+    print(f"the value of y is {y} and the value of x is {x}")
+    x=x+2 
+
+
+i=0        # i ko ek value pakda di, ki iske aage se shuru hoga
+while i<8:      #jabtak i ki value iss se kamm hai
+    print(i)    #i print krte raho
+    i+=2        #harr step mai i ki value m 2 2 badhaate raho
+
+i=0
+while (i<=5):
+    i=int(input("Enter the number: "))  #ek input le liya i ke liye, ab agar user ka input 5 se kamm h tab tak ye input lete rahega aur jaise hi input 5 se jyda ho jaayega vo done print krr
+    print(i)
+print("done")   #ye saala 5 se bdaa number daalne pe bhi numer print kyu kiye jaara hai
+ 
+
+#decrementing while loop
+i=10             #i ko value di 
+while (i<0):     #jab tak i ki value 0 se badi hai tab tak i print hoga
+    print(i)    
+    i=i-1          #ek ek numer kamm hote rahega
+else:
+    print("khatam")  #jab ye  second line waali condition false hogi tab ye else implement hoga
